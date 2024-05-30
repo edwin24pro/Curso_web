@@ -1,0 +1,19 @@
+.contenedor{
+    background: red;
+    width: 100%;
+    height: 600px;
+    display: flex;
+    padding-left: 15px;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+
+}
+p{
+    background: rgb(13, 177, 35);
+    width: 20%;
+    height: 100px;
+    text-align: center;
+    font-size: 28px;
+    margin: 5px;
+    border-radius: 30px;
+}
