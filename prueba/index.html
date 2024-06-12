@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,300,100' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="./estilos.css">
+</head>
+<body>
+  <div class="container">
+    <form>
+      <div class="form-header">
+        <h5>Tarjeta de Crédito</h5>
+      </div>
+      <div class="form-body">
+        <div class="card-number">
+          <input type="text" placeholder="Número de tarjeta">
+        </div>
+        <div class="date-field">
+          <select class="month">
+            <option value="">Mes</option>
+            <option value="01">Enero</option>
+            <option value="02">Febrero</option>
+            <!--... -->
+          </select>
+          <select class="year">
+            <option value="">Año</option>
+            <option value="2024">2024</option>
+            <option value="2025">2025</option>
+            <!--... -->
+          </select>
+        </div>
+        <div class="cvv-input">
+          <input type="text" placeholder="CVV">
+          <p class="cvv-details">3 dígitos en la parte posterior de la tarjeta</p>
+        </div>
+        <div class="buttons-section">
+          <button type="submit" class="paypal-btn">Pagar con PayPal</button>
+          <button type="submit" class="proceed-btn">Continuar</button>
+        </div>
+      </div>
+    </form>
+  </div>
+</body>
+</html>
